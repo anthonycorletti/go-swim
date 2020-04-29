@@ -17,9 +17,9 @@ const (
 var InvalidMessage = errors.New("invalid message")
 
 type Message struct {
-	Type        string `json:type`
-	From        string `json:from`
-	Who         string `json:who`
+	Type        string `json:"type"`
+	From        string `json:"from"`
+	Who         string `json:"who"`
 	fromAddress *net.UDPAddr
 	whoAddress  *net.UDPAddr
 }
