@@ -1,4 +1,4 @@
-package marlin
+package swim
 
 import (
 	"net"

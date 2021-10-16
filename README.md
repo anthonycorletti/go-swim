@@ -1,8 +1,8 @@
-# marlin
-a go library that implements the swim protocol.
+# swim
 
-marlin was developed with inspiration from this [paper](http://www.cs.cornell.edu/~asdas/research/dsn02-swim.pdf).
+implementing and learning about the [swim protocol]((http://www.cs.cornell.edu/~asdas/research/dsn02-swim.pdf).
 
-todo:
+things that still need to be done:
 - make sure each server knows one another
 - implement the failure detector
+- tests
